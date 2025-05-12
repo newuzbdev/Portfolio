@@ -36,6 +36,7 @@ export default function Projects() {
         "Tanstack Query",
         "Ant Design",
         "Tailwind CSS",
+        "React Router",
       ],
       link: "https://e-muhokama.uz/",
     },
@@ -43,24 +44,32 @@ export default function Projects() {
       id: 2,
       title: "MNAZORAT",
       description:
-        "MAHALLA YETTILIGINI NAZORAT QILISH UCHUN MNAZORAT AXBOROT TIZIMI",
-      image: "/mnazorat.png",
+        "Mahalla yettiklarini nazorat qilish uchun MNAZORAT axborot tizimi",
+      image: "/uzgerb.png",
       tags: [
         "React",
         "TypeScript",
+        "Tanstack Query",
         "Tailwind CSS",
         "Ant Design",
-        "Tanstack Query",
+        "React Router",
       ],
-      link: "#",
+      link: "https://new.mnazorat.uz/",
     },
     {
       id: 3,
       title: "MINFORMER",
       description: "Bog'chalar uchun maxsus tayyorlangan saytlar",
-      image: "/minformer.png",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-      link: "#",
+      image: "",
+      tags: [
+        "React js & Next.js",
+        "TypeScript",
+        "Tanstack Query",
+        "React Router",
+        "Tailwind CSS",
+        "Shadcn UI",
+      ],
+      link: "http://minformer.mbosapp.uz/auth/login",
     },
     {
       id: 4,
@@ -68,8 +77,15 @@ export default function Projects() {
       description:
         "A web application that uses AI to generate unique images based on text prompts provided by users.",
       image: "/mbos.svg",
-      tags: ["React", "TypeScript", "Shadcn UI", "Tailwind CSS"],
-      link: "#",
+      tags: [
+        "React",
+        "TypeScript",
+        "Tanstack Query",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "React Router",
+      ],
+      link: "https://crm.mbosapp.uz/",
     },
   ];
 
@@ -91,7 +107,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-20 bg-black" ref={ref}>
       <div className="container mx-auto px-4">
-        <LampContainer className="mb-16 h-[40vh] min-h-[400px]">
+        <LampContainer className="h-[40vh] min-h-[400px]">
           <motion.h1
             initial={{ opacity: 0.5, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -100,9 +116,9 @@ export default function Projects() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="mt-8 bg-gradient-to-br from-purple-400 to-pink-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+            className=" bg-gradient-to-br from-purple-400 to-pink-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
           >
-            Featured Projects
+            Loyihalar
           </motion.h1>
         </LampContainer>
 

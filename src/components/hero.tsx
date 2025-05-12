@@ -18,7 +18,7 @@ const Hero = () => {
           }}
           className="relative flex flex-col gap-4 items-center justify-center px-4"
         >
-          <div className="text-3xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
+          <div className="text-3xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 py-2">
             Ochilov Jaxongirmirzo
           </div>
           <div className="font-extralight text-base md:text-4xl text-gray-300 py-4">

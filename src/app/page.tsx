@@ -1,9 +1,9 @@
 import Hero from "@/components/hero";
 import About from "@/components/about";
 import Projects from "@/components/projects";
-// import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Skills from "@/components/skill";
+import TechStackShowcase from "@/components/tech-stack";
+// import AnimatedSkills from "@/components/animated-skills";
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
-      <Skills />
-      {/* <Contact /> */}
+      {/* <AnimatedSkills /> */}
+      <TechStackShowcase />
       <Footer />
     </main>
   );
